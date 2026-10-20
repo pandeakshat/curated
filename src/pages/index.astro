@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SplashOverlay from '../components/SplashOverlay.jsx';
+import DeckVaultGrid from '../components/DeckVaultGrid.jsx';
+---
+
+<BaseLayout title="Akshat's Curated Gallery">
+  
+  <SplashOverlay client:load />
+
+  <main class="h-full w-full">
+    <DeckVaultGrid client:load />
+  </main>
+
+</BaseLayout>

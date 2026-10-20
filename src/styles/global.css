@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Adding a clean sans-serif and a mono font for that "index" data-vault feel */
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base styles to lock the screen size */
+body {
+  @apply bg-zinc-950 text-zinc-50 h-screen w-screen overflow-hidden antialiased;
+  /* Subtle selection color */
+  @apply selection:bg-zinc-800 selection:text-white; 
+}
