@@ -4,12 +4,12 @@ import { ChevronLeft, SlidersHorizontal, Maximize2, X, Loader2 } from 'lucide-re
 import Papa from 'papaparse';
 
 const categories = [
-  { id: 'words', title: 'Words / Poetry', color: '#eab308', image: 'https://vault-assets.exp-er.com/curated/word-poetry.jpg' },
-  { id: 'cinema', title: 'Cinema & Screen', color: '#3b82f6', image: 'https://vault-assets.exp-er.com/curated/cinema-screen.jpg' },
-  { id: 'systems', title: 'Systems & Philosophy', color: '#f59e0b', image: 'https://vault-assets.exp-er.com/curated/system-philosophy.jpg' },
-  { id: 'games', title: 'Interactive / Games', color: '#ef4444', image: 'https://vault-assets.exp-er.com/curated/interactive-games.jpg' },
-  { id: 'architecture', title: 'Tech & Architecture', color: '#0ea5e9', image: 'https://vault-assets.exp-er.com/curated/tech-architecture.jpg' },
-  { id: 'aesthetics', title: 'Visuals & Aesthetics', color: '#a855f7', image: 'https://vault-assets.exp-er.com/curated/vibe-aesthetic.jpg' },
+  { id: 'words', title: 'Words / Poetry', color: '#eab308', image: 'https://assets.pandeakshat.com/curated/word-poetry.jpg' },
+  { id: 'cinema', title: 'Cinema & Screen', color: '#3b82f6', image: 'https://assets.pandeakshat.com/curated/cinema-screen.jpg' },
+  { id: 'systems', title: 'Systems & Philosophy', color: '#f59e0b', image: 'https://assets.pandeakshat.com/curated/system-philosophy.jpg' },
+  { id: 'games', title: 'Interactive / Games', color: '#ef4444', image: 'https://assets.pandeakshat.com/curated/interactive-games.jpg' },
+  { id: 'architecture', title: 'Tech & Architecture', color: '#0ea5e9', image: 'https://assets.pandeakshat.com/curated/tech-architecture.jpg' },
+  { id: 'aesthetics', title: 'Visuals & Aesthetics', color: '#a855f7', image: 'https://assets.pandeakshat.com/curated/vibe-aesthetic.jpg' },
 ];
 
 export default function DeckVaultGrid() {
